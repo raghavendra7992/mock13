@@ -12,7 +12,7 @@ server.use("/user",userRouter);
 server.use("/jobs",jobRouter)
 
 server.get("/",(req,res)=>{
-    res.send("Hello world!")
+    res.send("Masai job Application")
 })
 
 server.listen(8080,async(req,res)=>{
